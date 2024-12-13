@@ -1,0 +1,78 @@
+/* 기본적으로 body 스타일 */
+body {
+    font-family: 'Arial', sans-serif;  /* 기본 폰트 설정 */
+    background-color: #f4f4f4;         /* 배경색 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;                     /* 전체 화면 높이를 사용 */
+  }
+  
+  /* App 컴포넌트 내의 h1 스타일 */
+  .App h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* 문서 목록 */
+  #document-list {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;           /* 하얀 배경 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+    border-radius: 8px;
+  }
+  
+  /* 문서 목록 항목 */
+  #document-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #document-list li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  /* 문서 항목에 마우스를 올렸을 때 스타일 */
+  #document-list li:hover {
+    background-color: #f1f1f1; /* 배경색 변화 */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+  }
+  
+  /* 클릭한 문서의 세부 내용 표시 */
+  #document-content {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* 문서 제목 */
+  #document-content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* 문서 내용 */
+  #document-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
