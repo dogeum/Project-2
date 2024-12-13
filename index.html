@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notion Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Notion Clone</h1>
+    <button id="add-document-btn">Add New Document</button>
+  </header>
+
+  <main>
+    <div id="document-list"></div>
+    <div id="document-detail">
+      <h2>Document Detail</h2>
+      <textarea id="document-content" placeholder="Edit your document here..."></textarea>
+      <button id="save-document-btn">Save Document</button>
+      <button id="delete-document-btn">Delete Document</button>
+    </div>
+  </main>
+
+  <script src="api.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
